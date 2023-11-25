@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+.wrapper{
+    display: flex;
+}
+.fixed-head{
+    width: 180px; /* Set the width of the fixed header */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0; /* To make it stretch to the bottom */
+    background-color: #f0f0f0; /* Just for demonstration */
+    /* Add other styles as needed */
+}
+.nav-icons{
+    margin-top: 0;
+}
+.nav-icons ul li {
+    display: flex;
+   padding-top: 30px;
+   padding-left: 30px;
+   list-style: none;
+}
+.home{
+    color:  rgb(0, 187, 255);
+}
+li:hover{
+    color: blue;
+    cursor: pointer;
+}
+#icon{
+    padding-right: 10px;
+}
+#image-icon{
+    margin-right: 10px;
+}
+#tweet-icon{
+    border-radius: 50px;
+    border: 2px solid white;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 8rem;
+    height: 2rem;
+    color: whitesmoke;
+    background-color: rgb(0, 187, 255);
+}
+#tweet-icon:hover{
+    transform: translate(-2px);
+}
+#tweet-icon2{
+    border-radius: 50px;
+    border: 2px solid white;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 5rem;
+    height: 2rem;
+    color: whitesmoke;
+    background-color: rgb(0, 187, 255);
+}
+.grid-container{
+    display: flex;
+    padding-left: 200px;
+    margin-top: 1%;
+}
+.middle{
+    max-width: 30rem;
+}
+.user{
+    display: flex;
+    padding-top: 15px;
+}
+.user-id ul li{
+    list-style: none;
+    display: inline;
+}
+#list{
+   margin-right: 70px;
+}
+.right{
+    margin-left: 50px;
+    max-width: 25rem;
+    position:sticky;
+}
+.search-container{
+    border-radius: 50px;
+    padding-top: 6px;
+    padding-left: 10px;
+    width: 15rem;
+    height: 2rem;
+    background: aliceblue;
+    border-radius: 20px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+#button{
+    background-color: aliceblue;
+    border: none;
+    background-color: transparent;
+}
+#trend{
+    border-radius: 5px;
+}
+
+/* Smaller screens like phones */
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+.nav-icons{
+    position: relative;
+}
+.grid-container{
+    display: inline;
+    padding-left: 200px;
+}
+#list{
+    margin-right: 30px;
+}
+  }
+  
+  /* Medium-sized devices like tablets */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust styles for tablets */
+    .nav-icons{
+        font-size: medium;
+        position: relative;
+    }
+    .grid-container ,.middle{
+        display: inline-block;
+        justify-content: space-between;
+
+    }
+    .grid-container{
+        display: flex;
+        padding-top: 10px;
+        padding-left: 200px;
+    }
+    .middle-1{
+        font-family: sans-serif;
+    }
+    #list{
+        margin-right: 60px;
+    }
+  }
+  
+  /* Larger screens like desktops */
+  @media only screen and (min-width: 1025px) {
+    /* Adjust styles for larger screens */
+    main{
+        display: flex;
+    }
+
+  }
+
