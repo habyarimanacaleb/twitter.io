@@ -1,0 +1,38 @@
+/* html{
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+/* } */ 
+.container{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+#error{
+    color: red;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    font-size:30px;
+    margin-bottom: 10px;
+}
+#output{
+    padding: 10px;
+    border: 1px solid gray;
+}
+#result{
+    color: black;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.description{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    box-shadow: 10px 0 0 8px rgb(146, 93, 93);
+}

@@ -1,0 +1,38 @@
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#user-input{
+   
+    color: black;
+    font-weight: 600;
+}
+#container{
+    border: 2px solid black;
+    box-shadow: 4px 0 0 4px black ;
+    margin: 10px;
+    padding: 40px;
+    width: 500px;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    z-index: 400;
+}
+
+#results-div{
+    padding-top:20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#error{
+    padding: 10px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
